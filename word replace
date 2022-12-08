@@ -1,0 +1,7 @@
+word=input("Enter a word")
+lword=word.lower()
+word1=lword[0]
+rword=lword.replace(word1,'$')
+rword=word1+rword[1:]
+print("before replacement",word)
+print("after replacement",rword)
