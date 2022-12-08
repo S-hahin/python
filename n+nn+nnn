@@ -1,0 +1,4 @@
+n=int(input("Enter value of n:"))
+n=str(n)
+ans=int(n)+int(n+n)+int(n+n+n)
+print("The sum n+nn+nn is",ans)
