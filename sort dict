@@ -1,0 +1,7 @@
+data={'a':100,'b':50,'c':331,'d':550}
+sort_key=sorted(data.items(),key=lambda x:x[0])
+sort_key_dict=dict(sort_key)
+sort_key1=sorted(data.items(),key=lambda x:x[0],reverse=True)
+sort_key_dict1=dict(sort_key1)
+print("Ascending order of key",sort_key_dict)
+print("Descending order of key",sort_key_dict1)
