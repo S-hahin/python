@@ -1,0 +1,11 @@
+def char_frequency(str1):
+    dict = {}
+    for n in str1:
+        key = dict.keys()
+        if n in key:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+    return dict
+word=input("enter word:")
+print(char_frequency(word))
