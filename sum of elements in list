@@ -1,0 +1,10 @@
+numlist = []
+numsum=0
+n=int(input("Enter range:"))
+for i in range(0,n):
+    value=int(input("Enter  values:"))
+    numlist.append(value)   
+print("The list is:",numlist)
+for i in numlist:
+    numsum+=i
+print('Sum of List is:',numsum)
