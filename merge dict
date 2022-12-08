@@ -1,0 +1,5 @@
+dict1={'ram':25,'rakesh':30,'raman':35}
+dict2={'sam':25,'soman':30,'shashi':35}
+print("before merging:",dict1,dict2,sep='\n')
+dict1={**dict1,**dict2}
+print("After merging:", dict1)
