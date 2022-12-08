@@ -1,0 +1,14 @@
+list1=[]
+list2=[]
+n=int(input("Enter range:"))
+for i in range(0,n):
+    value=int(input("Enter  values:"))
+    list1.append(value)       
+print("Actual list is",list1)
+for value in list1:
+    if value%2!=0:
+        list2.append(value)
+print("Modified list is:",list2)
+        
+
+
