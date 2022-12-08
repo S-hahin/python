@@ -1,0 +1,9 @@
+def gcd1(a, b):
+    if(b == 0):
+        return a
+    else:
+        return gcd1(b,a % b)
+x=int(input("Enter first number:"))
+y=int(input("Enter second number:")) 
+print("GCD of",x,",",y,"is:",end="")
+print(gcd1(x,y))
