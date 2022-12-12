@@ -1,0 +1,7 @@
+string=input("enter a string:")
+last=string[-3:]
+if(last!='ing'):
+    string=string+'ing'
+else:
+    string=string+'ly'
+print(string)
