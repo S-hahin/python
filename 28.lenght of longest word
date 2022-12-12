@@ -1,0 +1,5 @@
+string=input("Enter a list of words: ")
+split=string.split( )
+length=max(split)
+print(split)
+print("the longest word from the list having length ",len(length),"is",length)
