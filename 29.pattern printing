@@ -1,0 +1,9 @@
+size=int(input("Enter the range:"))
+for i in range(size):
+    for j in range(i):
+        print("*",end=" ")
+    print()
+for i in range(size):
+    for j in range(size-i):
+        print("*",end=" ")
+    print()
