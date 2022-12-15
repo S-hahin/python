@@ -1,0 +1,11 @@
+l=int(input("Enter length of rectangle:"))
+b=int(input("Enter breadth of rectangle:"))
+rect_area =lambda l,b:l*b
+print(rect_area(l,b))
+ba=int(input("Enter base of triangle:"))
+h=int(input("Enter height of triangle:"))
+tri_area=lambda ba,h: (ba*h)/2
+print(tri_area(ba,h))
+a=int(input("Enter radius of circle:"))
+sq_area=lambda a:(a**2)
+print(sq_area(a))
