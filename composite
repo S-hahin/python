@@ -1,0 +1,10 @@
+num = int(input("Enter your number: "))
+numb = int(input("Enter your number: "))
+print("composite")
+for i in range(num, numb+1):
+    count = 0
+    for j in range(1,i):
+        if i%j== 0:
+            count=j
+    if count > 1:
+        print(j,end="\t")
