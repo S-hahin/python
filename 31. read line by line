@@ -1,0 +1,11 @@
+f=open("lang.txt","r")
+content=f.readlines()
+c_list=[x.strip() for x in content]
+print("The list of contents in file is:")
+print(c_list)
+
+lang.txt
+1. Python is a programming language.
+2. Html is a web designing tool
+3. java is simple language
+4. JS is a scripting language
